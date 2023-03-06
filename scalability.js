@@ -26,3 +26,7 @@ function findIndex(arr, value) {
 
   return -1;
 }
+
+
+//The bad code has a linear time complexity and would not scale well for large arrays. The good code uses a binary search algorithm, which has a logarithmic time complexity and scales much better for large arrays.
+
